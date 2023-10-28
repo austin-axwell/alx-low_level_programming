@@ -1,4 +1,4 @@
-#include "main.h"
+#include "osto.h"
 
 /**
  * main - check the code
