@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
