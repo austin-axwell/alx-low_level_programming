@@ -1,18 +1,17 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * _puts_recursion - function that fills memory with a constant byte
- *@s: first value
- *
- */
+* _puts_recursion - prints a string followed by a new line
+*@s:character to be printed
+*Return:returns void
+*/
 void _puts_recursion(char *s)
 {
-
-	if (s[0] == '\0')
+	if (*s == '\0')
 		_putchar('\n');
-	else
+		return;
 	{
-		_putchar(s[0]);
-		s++;
+		_putchar(*s);
+		s++
 		_puts_recursion(s);
 	}
 }
